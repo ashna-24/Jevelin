@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.relative{
+   position: relative;
+}
+
+.index{
+    z-index: 10;
+}
+
+.flex{
+    display: flex;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.imgDiv{
+    margin-bottom: 20px;
+}
+
+.motivation{
+    padding: 130px 95px;
+}
+
+.mottext{
+    line-height: 1.8;
+    font-size: 17px;
+    text-align: center;
+    color: #8d8d8d;
+}
+
+.bold{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.line{
+    border-radius: 35px;
+    border-top-width: 5px;
+    border-top-color: #eaeaea;
+    border-top-style: solid;
+    max-width: 20px;
+    margin: 0px 0px 20px 460px;
+}
+
+.lineclient{
+    border-radius: 35px;
+    border-top-width: 5px;
+    border-top-color: #eaeaea;
+    border-top-style: solid;
+    max-width: 20px;
+    margin: 20px 0px 20px 650px;
+}
+
+.client{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.linesally{
+    border-radius: 35px;
+    border-top-width: 5px;
+    border-top-color: #eaeaea;
+    border-top-style: solid;
+    max-width: 20px;
+    margin: 20px 0px;
+}
+
+.new{
+    font-size: 13px;
+    background-color: brown;
+    color: rgb(231,231,231);
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.align{
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    top: 25px;
+    width: 100%!important;
+}
+
+.jevNavbar{
+    padding: 22px 0px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: rgb(108,108,108);
+}
+
+.navSet1{
+    padding: 0px 15px;
+}
+
+.navText{
+    font-size: 14px;
+    color: rgb(231,231,231); 
+}
+
+.logoImg{
+    width: 95px;
+}
+
+.signature{
+    margin-top: 30px;
+}
+
+.fitnessImg{
+    width: 1338px;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 300!important;
+    color: #ffffff;
+}
+
+.training{
+    top: 65px;
+    margin-left: 50px;
+}
+
+.offertext{
+    font-weight: 700!important;
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.services{
+    color: #f36347;
+}
+
+.fitness{
+    margin-bottom: 440px;
+}
+
+.workout{
+    width: 650px;
+    height: 705.75px;
+}
+
+.aboutworkout{
+    width: 680px;
+    height: 740.75px;
+}
+
+.work{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400; 
+}
+
+.schedule{
+    font-size: 60px;
+    color: #f36347;
+}
+
+.sectionrows{
+    margin: 0px 50px;
+    position: absolute;
+    top: 240px;
+    padding-bottom: 130px;
+}
+
+.rowset1{
+    width: 410px;
+    text-align: center;
+    padding: 70px 35px;
+}
+
+.rowtext{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #505050;
+    font-weight: 700;
+}
+
+.rowpara{
+    line-height: 1.8;
+    color: #8d8d8d;
+    font-size: 15px;
+}
+
+.borders{
+    border: 1px solid #efefef;
+    background-color: white;
+}
+
+.multi{
+    box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+}
+
+.mon{
+    font-size: 18px;
+}
+
+.worktext{
+    margin: 250px 0px 0px 160px;
+}
+
+.rightSide{
+    padding: 145px 100px;
+}
+
+.listh3{
+    color: #505050;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    border-left: 3px solid #f36347;
+    padding: 2px 0;
+    padding-left: 10px;
+}
+
+.listp{
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.signinbutton{
+    float: right;
+}
+
+.right{
+    width: 650px;
+    margin-bottom: 150px;
+    box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+}
+
+.signin{
+    padding: 12px 29px;
+    border-radius: 30px;
+    border-color: #efefef;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.signinbutton{
+    margin-left: 190px; 
+}
+
+.functional{
+    margin-left: 175px;
+}
+
+.weight{
+    margin-left: 160px;
+}
+
+.Boxing{
+    margin-left: 175px;
+}
+
+.list{
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+    padding-bottom: 10px; 
+}
+
+.left{
+    width: 650px;
+    padding: 205px 70px;
+    box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+}
+
+.abouttext{
+    right: 240px;
+    right: 240px;
+}
+
+.about{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400; 
+}
+
+.trainer{
+    color: #f36347;
+    font-size: 60px;
+}
+
+.sallybrey{
+    color: #505050;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.personal{
+    color: #8d8d8d;
+}
+
+.margin{
+    margin: 150px 0px;
+}
