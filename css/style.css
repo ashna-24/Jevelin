@@ -205,6 +205,8 @@
 
 .worktext{
     margin: 250px 0px 0px 160px;
+    padding: 20px;
+    border: 1px solid #8d8d8d;
 }
 
 .rightSide{
@@ -275,7 +277,9 @@
 
 .abouttext{
     right: 240px;
-    right: 240px;
+    border: 1px solid #8d8d8d;
+    padding: 20px;
+    margin-top: 307px;
 }
 
 .about{
@@ -295,10 +299,174 @@
     font-weight: 600;
 }
 
+.mapright{
+    margin:180px 60px;
+}
+
+.mapp{
+    color: #8d8d8d;
+    font-size: 16px;
+    margin: 0px 0px 30px 0px;
+}
+
+.maptext{
+    color: #505050;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.map{
+    width: 100%;
+    height: 705px;
+}
+
 .personal{
     color: #8d8d8d;
 }
 
 .margin{
-    margin: 150px 0px;
+    margin: 130px 0px;
+}
+
+.clienttext{
+    margin: 5px 0px 2px 50px;
+    font-size: 16px;
+    text-align: left;
+    color: #505050;
+    font-weight: 700;
+}
+
+.westboxing{
+    color: #f36347;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: left;
+    margin: 3px 0px 25px 50px;
+}
+
+.quotesright{
+    font-size: 30px;
+    margin-top: 40px;
+    color: #eaeaea; 
+}
+
+.quotes{
+    border-right: 1px solid #eaeaea;
+    min-width: 45px;
+}
+
+.quotestext{
+    color: #8d8d8d;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.mapdata{
+    margin: 0px 20px 20px 20px;
+}
+
+.center{
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 327px;
+    text-align: left;
+}
+
+.locationh3{
+    color: #505050;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.street{
+    color: #8d8d8d;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bottomimg{
+    height: 400px;
+    width: 1340px;
+}
+
+.special{
+    font-size: 24px;
+    font-weight: 400!important;
+}
+
+.signuph3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px 0px 18px 0px;
+}
+
+.bottom{
+    font-weight: 700;
+    padding: 14px 31px;
+    font-size: 13px;
+    background-color: transparent;
+    border: #8d8d8d;
+    border-width: 2px;
+    border-style: solid;
+    margin: 31px 0px;
+    border-radius: 30px;
+}
+
+.bottomtext{
+    width: 1340px;
+    top: 80px;
+    color: #ffffff;
+}
+
+.range{
+    color: rgb(255, 255, 255);
+    padding-left: 90px;
+    margin: 150px;
+}
+
+.para{
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 14px;
+    width: 595px;
+}
+
+.looking{
+    font-weight: 400;
+    font-size: 23px;
+    padding-left: 10px;
+    border-left: 2px solid #f36347;
+}
+
+.personaltraining{
+    font-weight: 700;
+    font-size: 54px;
+    padding-left: 12px;
+}
+
+.top{
+    color: #f36347;
+}
+
+.freetrial{
+    padding: 20px 50px;
+    margin-left: 14px;
+    border-radius: 43px;
+    background-color: #f36347;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.free{
+    padding: 20px 50px;
+    border-radius: 43px;
+    background-color: transparent;
+    font-size: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 25px; 
 }
