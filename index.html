@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Fitness - Jevelin WordPress Theme</title>
         <link rel="icon" href="assets/title.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,317 +16,522 @@
         <script src="assets/bootstrap.js"></script>     
     </head>
     <body>
-        <div class="relative"> 
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active" style="margin-right:20px"></li>
-                    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/Fitness_slide_1.jpg" class="d-block w-100" alt="Not found">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/Fitness_slide_2.jpg" class="d-block w-100" alt="Not found">
+        <div class="relative">
+            <div class="absolute sidenavbar">
+                <div class="iconone">
+                    <div class="iconhover pointer">
+                        <i class="material-icons" style="font-size: 25px; color: #bebebe; padding: 10px;">layers</i>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="iconone">
+                    <div class="iconhover pointer">
+                        <i class="fas fa-glasses" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                    </div>
+                </div>
+                <div class="iconone">
+                    <div class="iconhover pointer">
+                        <i class="fas fa-shopping-bag" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                    </div>
+                </div>
+                <div class="iconone">
+                    <div class="iconhover pointer">
+                        <i class="far fa-question-circle" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                    </div>
+                </div>
+                <div class="iconone">
+                    <div class="iconhover pointer">
+                        <i class="fa fa-support" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                    </div>
+                </div>
+                <div class="icontwo">
+                    <div class="iconhover pointer">
+                        <i class="far fa-envelope" style="font-size: 25px; color: #bebebe; padding: 10px;"></i>
+                    </div>
+                </div>
             </div>
-            <div class="index absolute logo">
-                <div class="imgDiv align flex">
-                    <img src="assets/Je_Logo.png" alt="Not Found" class="logoImg">
+            <div class="absolute arrowimg">
+                <div class="border pointer">
+                    <i class="fas fa-chevron-up" style="font-size: 25px; color: #bebebe; padding: 11px 12px;"></i>
                 </div>
-                <div class="jevNavbar">
+            </div>
+            <div class="relative"> 
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active" style="margin-right:20px"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/Fitness_slide_1.jpg" class="d-block w-100" alt="Not found">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/Fitness_slide_2.jpg" class="d-block w-100" alt="Not found">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="index absolute logo">
+                    <div class="imgDiv align flex">
+                        <img src="assets/Je_Logo.png" alt="Not Found" class="logoImg">
+                    </div>
+                    <div class="jevNavbar">
+                        <div class="d-flex align">
+                            <div class="navSet1">
+                                <b class="navText">Home</b>
+                                <i class="fas fa-chevron-down" style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <b class="navText">Blog</b>
+                                <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <b class="navText">Portfolio</b>
+                                <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <b class="navText">Shop</b>
+                                <span class="new">New</span>
+                                <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <b class="navText">Variations</b>
+                                <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <b class="navText">Elements</b>
+                                <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <i class='fas fa-shopping-cart' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                            </div>
+                            <div class="navSet1">
+                                <i class='fas fa-search' style='font-size:18px; color:rgb(231,231,231)'></i>
+                                <i class='fab fa-twitter' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
+                                <i class='fab fa-facebook-f' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
+                                <i class='fab fa-instagram' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="range">
+                        <h3 class="looking">LOOKING FOR</h3>
+                        <h3 class="personaltraining">PERSONAL<span class="top">TRAINER?</span></h3>
+                        <p class="para">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
+                        <div class="d-flex">
+                            <button class="freetrial">FREE TRIAL PLAN</button>
+                            <button class="free">CLIENT REVIEW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="motivation">
+                    <h1 class="text-center bold">THE MOTIVATION</h1>
+                    <div class="line"></div>
+                    <p class="text-center mottext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="d-flex align">
-                        <div class="navSet1">
-                            <b class="navText">Home</b>
-                            <i class="fas fa-chevron-down" style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <b class="navText">Blog</b>
-                            <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <b class="navText">Portfolio</b>
-                            <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <b class="navText">Shop</b>
-                            <span class="new">New</span>
-                            <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <b class="navText">Variations</b>
-                            <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <b class="navText">Elements</b>
-                            <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <i class='fas fa-shopping-cart' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
-                        </div>
-                        <div class="navSet1">
-                            <i class='fas fa-search' style='font-size:18px; color:rgb(231,231,231)'></i>
-                            <i class='fab fa-twitter' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
-                            <i class='fab fa-facebook-f' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
-                            <i class='fab fa-instagram' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="range">
-                    <h3 class="looking">LOOKING FOR</h3>
-                    <h3 class="personaltraining">PERSONAL<span class="top">TRAINER?</span></h3>
-                    <p class="para">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
-                    <div class="d-flex">
-                        <button class="freetrial">FREE TRIAL PLAN</button>
-                        <button class="free">CLIENT REVIEW</button>
+                        <img src="assets/Agency_signature.png" alt="Not found" class="signature">
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="motivation">
-                <h1 class="text-center bold">THE MOTIVATION</h1>
-                <div class="line"></div>
-                <p class="text-center mottext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="d-flex align">
-                    <img src="assets/Agency_signature.png" alt="Not found" class="signature">
+            <div class="container-fluid relative">
+                <div class="fitness">
+                    <img src="assets/Fitness_img.jpg" alt="Not found" class="fitnessImg">
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid relative">
-            <div class="fitness">
-                <img src="assets/Fitness_img.jpg" alt="Not found" class="fitnessImg">
-            </div>
-            <div class="index absolute training">
-                <h2 class="text">TRAINING</h2>
-                <h1 class="offertext">
-                    <span class="services">SERVICES</span>
-                    WE OFFER
-                </h1>
-            </div>
-            <div class="sectionrows">
-                <div class="row borders">
-                    <div class="col-sm-4">
-                        <div class="rowset1">
-                            <i class='fas fa-mobile-alt' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
-                            <h3 class="rowtext">Responsive desing</h3>
-                            <p class="rowpara">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            </p>
-                            <p class="mon"><strong class="monbold">$ 25</strong>/mon</p>
+                <div class="index absolute training">
+                    <h2 class="text">TRAINING</h2>
+                    <h1 class="offertext">
+                        <span class="services">SERVICES</span>
+                        WE OFFER
+                    </h1>
+                </div>
+                <div class="sectionrows">
+                    <div class="row borders">
+                        <div class="col-sm-4">
+                            <div class="rowset1">
+                                <i class='fas fa-mobile-alt' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
+                                <h3 class="rowtext">Responsive desing</h3>
+                                <p class="rowpara">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                </p>
+                                <p class="mon"><strong class="monbold">$ 25</strong>/mon</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4 multi">
-                        <div class="rowset1">
-                            <i class='fas fa-random' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
-                            <h3 class="rowtext">Multi-purpose</h3>
-                            <p class="rowpara">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            </p>
-                            <p class="mon"><strong class="monbold">$ 45</strong>/mon</p>
+                        <div class="col-sm-4 multi">
+                            <div class="rowset1">
+                                <i class='fas fa-random' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
+                                <h3 class="rowtext">Multi-purpose</h3>
+                                <p class="rowpara">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                </p>
+                                <p class="mon"><strong class="monbold">$ 45</strong>/mon</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="rowset1">
-                            <i class='far fa-clock' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
-                            <h3 class="rowtext">One click install</h3>
-                            <p class="rowpara">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                            </p>
-                            <p class="mon"><strong class="monbold">$ 63</strong>/mon</p>
+                        <div class="col-sm-4">
+                            <div class="rowset1">
+                                <i class='far fa-clock' style='font-size:36px; color:#8d8d8d; margin-bottom: 20px'></i>
+                                <h3 class="rowtext">One click install</h3>
+                                <p class="rowpara">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ut suscipit pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                </p>
+                                <p class="mon"><strong class="monbold">$ 63</strong>/mon</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex">
-            <div>
-                <img src="assets/Fitness_img1.jpg" alt="Not found" class="workout">
-            </div>
-            <div class="index absolute worktext">
-                <h2 class="work">WORKOUT</h2>
-                <h1 class="offertext">
-                    <span class="schedule">SCHEDULE</span>
-                </h1>
-            </div>
-            <div class="right">
-                <div class="rightSide">
-                    <div class="list d-flex">
-                        <div class="setone">
-                            <h3 class="listh3">Cardio</h3>
-                            <p class="listp">8:00 - 9:00, Mondays</p>
-                        </div>
-                        <div class="signinbutton">
-                            <button class="signin">SIGN IN</button>
-                        </div>
-                    </div>
-                    <div class="list d-flex">
-                        <div class="setone">
-                            <h3 class="listh3">Functional training</h3>
-                            <p class="listp">10:00 - 11:00, Friday</p>
-                        </div>
-                        <div class="functional">
-                            <button class="signin">SIGN IN</button>
-                        </div>
-                    </div>
-                    <div class="list d-flex">
-                        <div class="setone">
-                            <h3 class="listh3">Weight lifting</h3>
-                            <p class="listp">14:00 - 15:00, Wednesday</p>
-                        </div>
-                        <div class="weight">
-                            <button class="signin">SIGN IN</button>
-                        </div>
-                    </div>
-                    <div class="list d-flex">
-                        <div class="setone">
-                            <h3 class="listh3">Boxing</h3>
-                            <p class="listp">16:00 - 17:00, Every day</p>
-                        </div>
-                        <div class="Boxing">
-                            <button class="signin">SIGN IN</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="d-flex">
-        </div>
-        <div class="d-flex">
-            <div class="left">
-                <h3 class="sally"><span class="sallybrey">SALLY BREY</span><span class="personal">/PERSONAL TRAINER</span></h3>
-                <div class="linesally"></div>
-                <p class="listp">
-                    Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla. Nam in condimentum orci. Integer ac pellentesque sem. Nulla fringilla dui id metus viverra interdum.
-                    Mauris sed lacus sit amet ligula faucibus suscipit. Integer a mattis diam, at sagittis dolor. Aenean lectus ligula,mattis vitae ornare eget, sagittis non felis. Suspendisse et odio a leo fringilla efficitur ac eget eros. Integer cursus bibendum augue ac cursus.
-                </p>
-            </div>
-            <div>
-                <img src="assets/Fitness_img3.jpg" alt="not found" class="aboutworkout">
-            </div>
-            <div class="index absolute abouttext">
-                <h2 class="about">ABOUT</h2>
-                <h1 class="offertext">
-                    <span class="trainer">TRAINER</span>
-                </h1>
-            </div>
-        </div>
-        <div class="text-center margin">
-            <h3 class="client">WHAT MY CLIENTS SAY</h3>
-            <div class="lineclient"></div>
             <div class="d-flex">
-                <div class="center">
-                    <h3 class="clienttext">
-                        Karren West
-                    </h3>
-                    <div class="westboxing">BOXING</div>
-                    <div class="d-flex">
-                        <div class="quotes">
-                            <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+                <div>
+                    <img src="assets/Fitness_img1.jpg" alt="Not found" class="workout">
+                </div>
+                <div class="index absolute worktext">
+                    <h2 class="work">WORKOUT</h2>
+                    <h1 class="offertext">
+                        <span class="schedule">SCHEDULE</span>
+                    </h1>
+                </div>
+                <div class="right">
+                    <div class="rightSide">
+                        <div class="list d-flex">
+                            <div class="setone">
+                                <h3 class="listh3">Cardio</h3>
+                                <p class="listp">8:00 - 9:00, Mondays</p>
+                            </div>
+                            <div class="signinbutton">
+                                <button class="signin">SIGN IN</button>
+                            </div>
                         </div>
-                        <p class="quotestext">    
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. 
-                        </p>
+                        <div class="list d-flex">
+                            <div class="setone">
+                                <h3 class="listh3">Functional training</h3>
+                                <p class="listp">10:00 - 11:00, Friday</p>
+                            </div>
+                            <div class="functional">
+                                <button class="signin">SIGN IN</button>
+                            </div>
+                        </div>
+                        <div class="list d-flex">
+                            <div class="setone">
+                                <h3 class="listh3">Weight lifting</h3>
+                                <p class="listp">14:00 - 15:00, Wednesday</p>
+                            </div>
+                            <div class="weight">
+                                <button class="signin">SIGN IN</button>
+                            </div>
+                        </div>
+                        <div class="list d-flex">
+                            <div class="setone">
+                                <h3 class="listh3">Boxing</h3>
+                                <p class="listp">16:00 - 17:00, Every day</p>
+                            </div>
+                            <div class="Boxing">
+                                <button class="signin">SIGN IN</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="center">
-                    <h3 class="clienttext">
-                        Suzi Merraga
-                    </h3>
-                    <div class="westboxing">
-                        REHABILITATION 
-                    </div>
-                    <div class="d-flex">
-                        <div class="quotes">
-                            <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+            </div>
+            <div class="d-flex">
+                <div class="row countrow">
+                    <div class="col-md-3">
+                        <div class="countset text-center">
+                            <h1 class="count">3</h1>
+                            <p class="countname">
+                                <i class='far fa-bookmark' style='font-size:26px; color:#8d8d8d; padding-right: 15px;'></i>
+                                Fitness degrees
+                            </p>
                         </div>
-                        <p class="quotestext">    
-                            Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. neque eu lectus. 
-                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="countset text-center">
+                            <h1 class="count">45</h1>
+                            <p class="countname">
+                                <i class='fas fa-video' style='font-size:26px; color:#8d8d8d; padding-right: 15px;'></i>
+                                Training programs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="countset text-center">
+                            <h1 class="count">568</h1>
+                            <p class="countname">
+                                <i class='far fa-heart' style='font-size:26px; color:#8d8d8d; padding-right: 15px;'></i>
+                                Happy clients
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="countset text-center">
+                            <h1 class="count">17</h1>
+                            <p class="countname">
+                                <i class='fas fa-briefcase' style='font-size:26px; color:#8d8d8d; padding-right: 15px;'></i>
+                                Fitness degrees
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="center">
-                    <h3 class="clienttext">
-                        Antony Gramm
-                    </h3>
-                    <div class="westboxing">
-                        FUNCTIONAL TRAINING 
-                    </div>
-                    <div class="d-flex">
-                        <div class="quotes">
-                            <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+            </div>
+            <div class="d-flex">
+                <div class="left">
+                    <h3 class="sally"><span class="sallybrey">SALLY BREY</span><span class="personal">/PERSONAL TRAINER</span></h3>
+                    <div class="linesally"></div>
+                    <p class="listp">
+                        Cras finibus non magna sed varius. Fusce risus eros, dapibus vitae dignissim vel, consequat et dolor. Proin maximus posuere felis a tincidunt. Etiam sit amet ligula eget libero suscipit semper eget ornare magna. Phasellus non est ligula. Nulla auctor neque non tortor tincidunt fringilla. Nam in condimentum orci. Integer ac pellentesque sem. Nulla fringilla dui id metus viverra interdum.
+                        Mauris sed lacus sit amet ligula faucibus suscipit. Integer a mattis diam, at sagittis dolor. Aenean lectus ligula,mattis vitae ornare eget, sagittis non felis. Suspendisse et odio a leo fringilla efficitur ac eget eros. Integer cursus bibendum augue ac cursus.
+                    </p>
+                </div>
+                <div>
+                    <img src="assets/Fitness_img3.jpg" alt="not found" class="aboutworkout">
+                </div>
+                <div class="index absolute abouttext">
+                    <h2 class="about">ABOUT</h2>
+                    <h1 class="offertext">
+                        <span class="trainer">TRAINER</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="text-center margin">
+                <h3 class="client">WHAT MY CLIENTS SAY</h3>
+                <div class="lineclient"></div>
+                <div class="d-flex">
+                    <div class="center">
+                        <h3 class="clienttext">
+                            Karren West
+                        </h3>
+                        <div class="westboxing">BOXING</div>
+                        <div class="d-flex">
+                            <div class="quotes">
+                                <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+                            </div>
+                            <p class="quotestext">    
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. 
+                            </p>
                         </div>
-                        <p class="quotestext">    
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. 
-                        </p>
+                    </div>
+                    <div class="center">
+                        <h3 class="clienttext">
+                            Suzi Merraga
+                        </h3>
+                        <div class="westboxing">
+                            REHABILITATION 
+                        </div>
+                        <div class="d-flex">
+                            <div class="quotes">
+                                <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+                            </div>
+                            <p class="quotestext">    
+                                Aenean consectetur lacinia diam a tincidunt. Vivamus facilisis lacus non velit suscipit pellentesque. Nam ac mauris nec mi lobortis sollicitudin sed at lacus. neque eu lectus. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <h3 class="clienttext">
+                            Antony Gramm
+                        </h3>
+                        <div class="westboxing">
+                            FUNCTIONAL TRAINING 
+                        </div>
+                        <div class="d-flex">
+                            <div class="quotes">
+                                <i class="fa fa-quote-right" style="font-size: 30px; margin-top: 40px; color: #eaeaea"></i>
+                            </div>
+                            <p class="quotestext">    
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus elit aliquam facilisis pharetra. Aenean consectetur lacinia diam a tincidunt. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.57348593182!2d-74.00599512526003!3d40.72586666928451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f988156a9%3A0xd54629bdf9d61d68!2sBroadway-Lafayette%20St!5e0!3m2!1spl!2spl!4v1624523797308!5m2!1spl!2spl"
+                        class="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mapright">
+                            <h3 class="text-left maptext">HOW & WHERE TO FIND ME</h3>
+                            <div class="linesally"></div>
+                            <p class="mapp">Street number and town name 23</p>
+                            <div class="mapdata">
+                                <div class="d-flex">
+                                    <i class='fas fa-map-marker-alt' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
+                                    <div class="location">
+                                        <h3 class="locationh3">Location</h3>
+                                        <p class="street">Street number and town name 23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mapdata">
+                                <div class="d-flex">
+                                    <i class='far fa-envelope' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
+                                    <div class="location">
+                                        <h3 class="locationh3">Email</h3>
+                                        <p class="street">info@brandname.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mapdata">
+                                <div class="d-flex">
+                                    <i class='fas fa-phone-alt' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
+                                    <div class="location">
+                                        <h3 class="locationh3">Phone number</h3>
+                                        <p class="street">425 521 432</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid relative">
+                <div>
+                    <img src="assets/Fitness_img4.jpg" alt="Not found" class="bottomimg">
+                </div>
+                <div class="index absolute text-center bottomtext">
+                    <h2 class="special">
+                        SPECIAL OFFER
+                    </h2>
+                    <h3 class="signuph3">SIGN UP NOW & GET A FREE</h3>
+                    <h3 class="signuph3">GIFT LESSON!</h3>
+                    <button class="bottom">SIGN UP NOW!</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row footerrow">
+                    <div class="col-md-3">
+                        <h3 class="onetext">
+                            About Us
+                        </h3>
+                        <p class="aboutpara">Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus pharetra id. Nulla facilisi. Ut mollis et augue non gravida. Sed ipsum urna, venenatis ut vehicula nec, ultrices quis sapien.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dtls">
+                            <h3 class="onetext">
+                                Contacts
+                            </h3>
+                            <div class="contacts">
+                                <div class="contactset d-flex">
+                                    <i class="far fa-map" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                    County, Street name - number 
+                                </div>
+                                <div class="contactset d-flex">
+                                    <i class="fas fa-phone-alt" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                    032 267 899 442 
+                                </div>
+                                <div class="contactset d-flex">
+                                    <i class="far fa-envelope" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                    company@name.com 
+                                </div>
+                                <div class="contactset d-flex">
+                                    <i class="far fa-clock" style="font-size: 18px; margin-right: 15px; color: #cccccc;"></i>                                
+                                    Mon.-Fri.: 10-20 Sun.: 12-16 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="onetext">
+                            Recent Posts
+                        </h3>
+                        <div class="footset1 d-flex">
+                            <div class="relative">
+                                <img src="assets/Blog.jpg" alt="Not found" class="footimg">
+                                <span class="absolute spanset">0</span>
+                            </div>
+                            <div class="setdata">
+                                <p class="setpara">TRAVEL, UNCATEGORIZED</p>
+                                <h4 class="seth4">The team watchers</h4>
+                            </div>
+                        </div>
+                        <div class="footset1 d-flex">
+                            <div class="relative">
+                                <img src="assets/Blog1.jpg" alt="Not found" class="footimg">
+                                <span class="absolute spanset">0</span>
+                            </div>
+                            <div class="setdata">
+                                <p class="setpara">DESIGN, TRAVEL</p>
+                                <h4 class="seth4">Creative day off</h4>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="relative">
+                                <img src="assets/Blog3.jpg" alt="Not found" class="footimg">
+                                <span class="absolute spanset">0</span>
+                            </div>
+                            <div class="setdata">
+                                <p class="setpara">NEWS, TRAVEL</p>
+                                <h4 class="seth4">The smell of roses</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="onetext">
+                            Latest Projects
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Fitness.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Paperback.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Portfolio.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Paperback.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Portfolio2.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Portfolio3.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/photo.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="pointer">
+                                    <img src="assets/Portfolio4.jpg" alt="Not found" class="fitnessimage">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.57348593182!2d-74.00599512526003!3d40.72586666928451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598f988156a9%3A0xd54629bdf9d61d68!2sBroadway-Lafayette%20St!5e0!3m2!1spl!2spl!4v1624523797308!5m2!1spl!2spl"
-                    class="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="col-md-6">
-                    <div class="mapright">
-                        <h3 class="text-left maptext">HOW & WHERE TO FIND ME</h3>
-                        <div class="linesally"></div>
-                        <p class="mapp">Street number and town name 23</p>
-                        <div class="mapdata">
-                            <div class="d-flex">
-                                <i class='fas fa-map-marker-alt' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
-                                <div class="location">
-                                    <h3 class="locationh3">Location</h3>
-                                    <p class="street">Street number and town name 23</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mapdata">
-                            <div class="d-flex">
-                                <i class='far fa-envelope' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
-                                <div class="location">
-                                    <h3 class="locationh3">Email</h3>
-                                    <p class="street">info@brandname.com</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mapdata">
-                            <div class="d-flex">
-                                <i class='fas fa-phone-alt' style="font-size: 30px; margin: 10px 25px 0px 15px; color: #8d8d8d;"></i>
-                                <div class="location">
-                                    <h3 class="locationh3">Phone number</h3>
-                                    <p class="street">425 521 432</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid relative">
-            <div>
-                <img src="assets/Fitness_img4.jpg" alt="Not found" class="bottomimg">
-            </div>
-            <div class="index absolute text-center bottomtext">
-                <h2 class="special">
-                    SPECIAL OFFER
-                </h2>
-                <h3 class="signuph3">SIGN UP NOW & GET A FREE</h3>
-                <h3 class="signuph3">GIFT LESSON!</h3>
-                <button class="bottom">SIGN UP NOW!</button>
-            </div>
+        <div class="footerbottom d-flex">
+            <img src="assets/logo_bottom.png" alt="Not found">
+            <p class="text-center themeset">
+                WordPress Theme built by <b class="boldtext pointer">Shufflehound</b>
+            </p>
         </div>
     </body>
 </html>
