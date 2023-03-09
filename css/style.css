@@ -27,6 +27,22 @@
     padding: 130px 95px;
 }
 
+.fweight700{
+    font-weight: 700;
+}
+
+.fsize16{
+    font-size: 16px;
+}
+
+.fsize30{
+    font-size: 30px;
+}
+
+.color50{
+    color: #505050;
+}
+
 .sidenavbar{
     background-color: #ffffff;
     box-shadow: 0px 6px 13px 5px rgb(0 0 0 / 12%);
@@ -44,14 +60,7 @@
 
 .count{
     font-size: 43px;
-    font-weight: 700;
     color: #f36347;
-}
-
-.countname{
-    font-size: 16px;
-    font-weight: 700;
-    color: #505050;
 }
 
 .arrowimg{
@@ -79,14 +88,11 @@
 .mottext{
     line-height: 1.8;
     font-size: 17px;
-    text-align: center;
     color: #8d8d8d;
 }
 
 .bold{
-    font-size: 30px;
     margin-bottom: 20px;
-    font-weight: 700;
 }
 
 .line{
@@ -109,7 +115,6 @@
 
 .client{
     font-size: 25px;
-    font-weight: 700;
 }
 
 .linesally{
@@ -122,11 +127,22 @@
 }
 
 .new{
-    font-size: 13px;
-    background-color: brown;
+    margin-left: 6px;
+    font-size: 12px;
+    background-color: #f36347;
     color: rgb(231,231,231);
     padding: 0px 5px;
     border-radius: 10px;
+}
+
+.topspan{
+    bottom: 10px;
+    right: 3px;
+    font-size: 11px;
+    background-color: #f36347;
+    color: rgb(231,231,231);
+    padding: 0px 5px;
+    border-radius: 9px;
 }
 
 .align{
@@ -136,7 +152,7 @@
 
 .logo{
     top: 25px;
-    width: 100%!important;
+    width: 100%;
 }
 
 .jevNavbar{
@@ -168,8 +184,7 @@
 }
 
 .text{
-    font-size: 30px;
-    font-weight: 300!important;
+    font-weight: 300;
     color: #ffffff;
 }
 
@@ -179,7 +194,6 @@
 }
 
 .offertext{
-    font-weight: 700!important;
     color: #ffffff;
     font-size: 48px;
 }
@@ -194,16 +208,15 @@
 
 .workout{
     width: 650px;
-    height: 705.75px;
+    height: 706px;
 }
 
 .aboutworkout{
     width: 680px;
-    height: 740.75px;
+    height: 741px;
 }
 
 .work{
-    font-size: 30px;
     color: #ffffff;
     font-weight: 400; 
 }
@@ -215,22 +228,17 @@
 
 .sectionrows{
     margin: 0px 50px;
-    position: absolute;
     top: 240px;
     padding-bottom: 130px;
 }
 
 .rowset1{
     width: 410px;
-    text-align: center;
     padding: 70px 35px;
 }
 
 .rowtext{
-    font-size: 16px;
     margin-bottom: 20px;
-    color: #505050;
-    font-weight: 700;
 }
 
 .rowpara{
@@ -263,9 +271,7 @@
 }
 
 .listh3{
-    color: #505050;
     font-size: 17px;
-    font-weight: 700;
     margin-bottom: 14px;
     border-left: 3px solid #f36347;
     padding: 2px 0;
@@ -273,7 +279,6 @@
 }
 
 .listp{
-    font-size: 16px;
     color: #8d8d8d;
 }
 
@@ -293,7 +298,6 @@
     border-color: #efefef;
     background-color: white;
     font-size: 12px;
-    font-weight: 700;
 }
 
 .signinbutton{
@@ -332,7 +336,6 @@
 }
 
 .about{
-    font-size: 30px;
     color: #ffffff;
     font-weight: 400; 
 }
@@ -343,8 +346,6 @@
 }
 
 .sallybrey{
-    color: #505050;
-    font-size: 30px;
     font-weight: 600;
 }
 
@@ -354,14 +355,7 @@
 
 .mapp{
     color: #8d8d8d;
-    font-size: 16px;
     margin: 0px 0px 30px 0px;
-}
-
-.maptext{
-    color: #505050;
-    font-weight: 700;
-    font-size: 30px;
 }
 
 .map{
@@ -379,24 +373,14 @@
 
 .clienttext{
     margin: 5px 0px 2px 50px;
-    font-size: 16px;
     text-align: left;
-    color: #505050;
-    font-weight: 700;
 }
 
 .westboxing{
     color: #f36347;
-    font-weight: 700;
     font-size: 13px;
     text-align: left;
     margin: 3px 0px 25px 50px;
-}
-
-.quotesright{
-    font-size: 30px;
-    margin-top: 40px;
-    color: #eaeaea; 
 }
 
 .quotes{
@@ -423,12 +407,6 @@
     text-align: left;
 }
 
-.locationh3{
-    color: #505050;
-    font-weight: 700;
-    font-size: 16px;
-}
-
 .street{
     color: #8d8d8d;
     font-size: 15px;
@@ -443,7 +421,6 @@
 .onetext{
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
     margin-bottom: 25px;
 }
 
@@ -452,7 +429,6 @@
 }
 
 .footerbottom{
-    font-size: 16px;
     color: #bebebe;
     font-weight: 400;
     padding: 30px 445px;
@@ -525,7 +501,6 @@
 }
 
 .seth4{
-    font-size: 16px;
     font-weight: 500;
     color: #efefef;
 }
@@ -541,12 +516,10 @@
 
 .signuph3{
     font-size: 48px;
-    font-weight: 700;
     margin: 0px 0px 18px 0px;
 }
 
 .bottom{
-    font-weight: 700;
     padding: 14px 31px;
     font-size: 13px;
     background-color: transparent;
@@ -588,7 +561,6 @@
 }
 
 .personaltraining{
-    font-weight: 700;
     font-size: 54px;
     padding-left: 12px;
 }
@@ -598,21 +570,20 @@
 }
 
 .freetrial{
-    padding: 20px 50px;
+    padding: 20px 35px;
     margin-left: 14px;
     border-radius: 43px;
     background-color: #f36347;
-    font-size: 16px;
     border: none;
     font-weight: 500;
     margin-top: 25px;
 }
 
 .free{
-    padding: 20px 50px;
+    padding: 18px 35px;
+    left: 175px;
     border-radius: 43px;
     background-color: transparent;
-    font-size: 16px;
     border: 2px solid rgb(255, 255, 255);
     font-weight: 500;
     margin-top: 25px; 
