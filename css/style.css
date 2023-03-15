@@ -2,20 +2,28 @@
     margin: 0;
     padding: 0;
 }
-.reveal {
+.reveal{
     position: relative;
     opacity: 0;
 }
   
-.reveal.active {
+.reveal.active{
     opacity: 1;
 }
 
-.active.fade-bottom {
+.active.fade-bottom{
     animation: fade-bottom 1s ease-in;
 }
 
-@keyframes fade-bottom {
+.active.fade-left{
+    animation: fade-left 1s ease-in;
+}
+
+.active.fade-right{
+    animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom{
     0% {
       transform: translateY(50px);
       opacity: 0;
@@ -24,6 +32,28 @@
       transform: translateY(0);
       opacity: 1;
     }
+}
+
+@keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes fade-right {
+0% {
+    transform: translateX(100px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
 }
   
 .relative{
@@ -149,6 +179,10 @@
     margin: 20px 0px;
 }
 
+.widthset{
+    width: 1349px;
+}
+
 .new{
     margin-left: 6px;
     font-size: 12px;
@@ -185,8 +219,173 @@
     border-color: rgb(108,108,108);
 }
 
+.topnav{
+    display: block;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+@media screen and (max-width:320px){
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and(max-width: 600px){
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .topmedia{
+        width: 1349px!important;
+    }
+
+    .fitnessImg{
+        width: 1700px!important;
+        height: 2245px;
+    }
+
+    .boxfitnessImg{
+        width: 1640px!important;
+        height: 650px;
+    }
+
+    .fitness{
+        margin: 0px!important;
+    }
+
+    #clock{
+        font-size: 125px!important;
+    }
+
+    .sectionrows{
+        margin: 0px!important;
+        top: 650px!important;
+        position: unset;
+        padding-bottom: 70px!important;
+    }
+
+    .jevNavbar{
+        border: none;
+    }
+
+    .medialogo{
+        width: 355px!important;
+    }
+
+    .mediasetone{
+        display: flex;
+        width: 1349px!important;
+        padding: 40px!important;
+        border-bottom: 1px solid #8d8d8d;
+    }
+
+    .right{
+        width: 0px !important;
+    }
+
+    .offertext{
+        font-size: 125px!important;
+        width: 815px!important;
+    }
+
+    .text{
+        font-size: 80px!important;
+    }
+
+    .range{
+        margin: 750px 0px!important;
+    }
+
+    .personaltraining{
+        font-size: 85px!important;
+    }
+
+    .para{
+        font-size: 17px!important;
+    }
+
+    .mottext{
+        font-size: 65px!important;
+        padding: 20px!important;
+    }
+
+    .bold{
+        font-size: 70px!important;
+    }
+
+    .mediaflex{
+        display: inline!important;
+        position: relative!important;
+    }
+
+    .schedule{
+        font-size: 158px!important;
+    }
+
+    .work{
+        font-size: 60px!important;
+    }
+
+    .workout{
+        width: 1266px!important;
+        height: 1000px!important;
+    }
+
+    .worktext{
+        top: 0;
+        margin: 333px 0px 0px 160px!important;
+        padding: 20px;
+        border: 1px solid #8d8d8d;
+    }
+
+    .rowset1{
+        padding: 300px 110px!important;
+        width: auto !important;
+    }
+
+    .rowtext{
+        font-size: 65px!important;
+        margin-bottom: 40px;
+    }
+
+    .rowpara{
+        font-size: 58px!important;
+    }
+
+    .mon{
+        font-size: 48px!important;
+    }
+
+    .signature{
+        width: 890px!important;
+    }
+}
+
 .navSet1{
     padding: 0px 15px;
+    text-decoration: none;
+}
+
+.navSet1:hover{
+    text-decoration: none;
 }
 
 .navText{
@@ -203,7 +402,11 @@
 }
 
 .fitnessImg{
-    width: 1338px;
+    width: 1349px;
+}
+
+.boxfitnessImg{
+    width: 1349px;
 }
 
 .text{
@@ -534,7 +737,7 @@
 
 .special{
     font-size: 24px;
-    font-weight: 400!important;
+    font-weight: 400;
 }
 
 .signuph3{
