@@ -7,4 +7,4 @@ function myFunction(){
     else{
       menu.className = "topnav";
     }
-  }
+}

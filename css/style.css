@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .reveal{
     position: relative;
     opacity: 0;
@@ -219,10 +220,6 @@
     border-color: rgb(108,108,108);
 }
 
-.topnav{
-    display: block;
-}
-
 .topnav .icon{
     display: none;
 }
@@ -236,6 +233,16 @@
         display: block;
     }
 }
+
+/* @media screen and (max-width:768px){
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+} */
 
 @media screen and(max-width: 600px){
     .topnav.responsive{
@@ -254,17 +261,17 @@
 
 @media screen and (max-width: 320px){
     .topmedia{
-        width: 1349px!important;
+        width: 1233px!important;
     }
 
     .fitnessImg{
-        width: 1700px!important;
+        width: 1233px!important;
         height: 2245px;
     }
 
     .boxfitnessImg{
-        width: 1640px!important;
-        height: 650px;
+        width: 1233px!important;
+        height: 660px !important;
     }
 
     .fitness{
@@ -275,30 +282,296 @@
         font-size: 125px!important;
     }
 
+    .signinbutton{    
+        float: none !important;
+        margin-top: 55px !important;
+    }
+
     .sectionrows{
         margin: 0px!important;
         top: 650px!important;
-        position: unset;
+        position: unset !important;
         padding-bottom: 70px!important;
     }
 
     .jevNavbar{
-        border: none;
+        border: none !important;
     }
 
     .medialogo{
         width: 355px!important;
     }
 
+    .list{
+        display: block !important;
+        border-style: none none solid none !important;
+        border-width: 3px !important;
+        border-color: #efefef !important;
+    }
+
+    .rightSide{
+        padding: 190px 200px !important;
+    }
+
+    .signinbutton{
+        float: none !important;
+        margin-left: 0px !important;
+    }
+
+    .widthset{
+        width: 1233px!important;
+    }
+
+    .footerrow{
+        padding: 115px 90px !important;
+    }
+
+    .contactset{
+        font-size: 55px !important;
+        margin-bottom: 60px !important;
+    }
+
+    #mediaicon{
+        font-size: 60px !important;
+        margin-right: 69px!important;
+        padding-top: 10px!important;
+        color: #cccccc!important;
+    }
+
+    .onetext{
+        font-size: 88px !important;
+        margin: 60px 0px !important;
+    }
+
+    .aboutpara{
+        font-size: 58px !important;
+    }
+
+    .signuph3{
+        font-size: 94px!important;
+        margin: 40px 219px 0px 219px!important;
+        width: 788px !important;
+    }
+
+    .gift{
+        font-size: 94px !important;
+    }
+
+    .bottom{
+        padding: 55px 123px !important;
+        font-size: 45px!important;
+        background-color: transparent;
+        border: #8d8d8d;
+        border-width: 6px!important;
+        border-style: solid;
+        margin: 50px 0px!important;
+        border-radius: 102px!important;
+    }
+
     .mediasetone{
-        display: flex;
-        width: 1349px!important;
+        display: flex !important;
+        width: 1233px!important;
         padding: 40px!important;
-        border-bottom: 1px solid #8d8d8d;
+        border-bottom: 1px solid #8d8d8d !important;
+    }
+
+    .looking{
+        font-size: 35px !important;
+    }
+
+    .listh3{
+        font-size: 62px!important;
+        border-left: 8px solid #f36347!important;
+        margin-bottom: 40px!important;
+        padding: 2px 0!important;
+        padding-left: 60px!important;
+        width: 670px !important;
+        margin-top: 70px !important;
+    }
+
+    .mapright{
+        margin: 180px 135px !important;
+    }
+
+    .maptext{
+        font-size: 85px!important;
+        width: 950px!important;
+    }
+
+    .mapp{
+        font-size: 55px!important;
+        width: 750px!important;
+    }
+
+    #locationid{
+        font-size: 105px!important;
+        margin: 10px 25px 0px 15px!important;
+        color: #8d8d8d;
+    }
+
+    .locationh3 {
+        font-size: 65px!important;
+    }
+
+    .street{
+        font-size: 52px !important;
+        width: 595px!important;
+    }
+
+    .special{
+        font-size: 60px !important;
+    }
+
+    .location{
+        margin-left: 75px!important;
+    }
+
+    .listp{
+        font-size: 65px!important;
+        width: 750px!important;
+        margin-bottom: 50px !important;
+    }
+
+    .mapdata{
+        margin: 40px 50px 50px 50px!important;
+    }
+
+    .map{
+        height: 1550px !important;
+        width: 1233px !important;
+    }
+
+    .bottomimg{
+        width: 1233px !important;
+        height: 895px !important;
+    }
+
+    .signin{
+        padding: 55px 50px!important;
+        border-radius: 95px!important;
+        border-color: #efefef;
+        border-width: 8px!important;
+        background-color: white;
+        font-size: 45px!important;
+        width: 480px!important;
+    }
+
+    .abouttext{
+        top: 0 !important;
+        position: absolute;
+        right: 240px!important;
+        border: 1px solid #8d8d8d;
+        margin-top:  207px !important;
+    }
+
+    .aboutworkout{
+        width: 1233px!important;
+        height: 660px !important;
+    }
+
+    .about{
+        font-size: 65px !important;
+    }
+
+    .trainer{
+        font-size: 130px !important;
+    }
+
+    .functional{
+        margin-left: 0px !important;
+    }
+
+    .weight{
+        margin-left: 0px !important;
+    }
+
+    .center{
+        margin: 65px 129px !important;
+        width: 880px !important;
+    }
+
+    .client{
+        font-size: 90px !important;
+        color: #505050;
+    }
+
+    .quotes{
+        padding-right: 55px!important;
+        min-width:150px !important;
+    }
+
+    .clienttext {
+        font-size: 55px !important;
+        margin-left: 242px !important;
+        margin-bottom: 30px !important;
+    }
+
+    #quoteright{
+        font-size: 90px !important;
+        margin-top: 140px !important;
+        color: #eaeaea!important; 
+    }
+
+    .quotestext{
+        color: #8d8d8d !important;
+        font-size: 61px !important;
+        line-height: 1.7!important;
+        padding-left: 97px!important;
+        font-weight: 400!important;
+    }
+
+    .westboxing{
+        font-size: 45px!important;
+        margin-left: 238px!important;
+        margin-bottom: 30px!important;
+    }
+
+    .Boxing{
+        margin-left: 0px !important;
     }
 
     .right{
         width: 0px !important;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%) !important;
+    }
+
+    .count{
+        font-size: 180px !important;
+    }
+
+    .countname{
+        font-size: 65px !important;
+        margin-bottom: 190px !important;
+    }
+
+    .mediadisplay{
+        display: block;
+    }
+
+    .left{
+        width: 1233px !important;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+        padding: 120px 70px;
+    }
+
+    .sally{
+        padding-left: 105px !important;
+    }
+
+    .sallybrey{
+        font-size: 108px !important;
+    }
+
+    .personal{
+        font-size: 83px !important;
+    }
+
+    .mediatext{
+        padding: 115px !important;
+        font-size: 57px !important;
+        line-height: 1.8;
+        width: 1190px!important;
+        margin-bottom: 50px !important;
     }
 
     .offertext{
@@ -310,16 +583,22 @@
         font-size: 80px!important;
     }
 
+    #fitnessid{
+        font-size: 65px !important;
+        color: #8d8d8d !important;
+        padding-right: 15px !important;
+    }
+
     .range{
         margin: 750px 0px!important;
     }
 
     .personaltraining{
-        font-size: 85px!important;
+        font-size: 100px!important;
     }
 
     .para{
-        font-size: 17px!important;
+        font-size: 20px!important;
     }
 
     .mottext{
@@ -331,8 +610,45 @@
         font-size: 70px!important;
     }
 
+    .setdata{
+        padding-left: 80px !important;
+    }
+
+    .mediabottom{
+        width: 400px;
+        margin-left: 327px;
+        margin-bottom: 55px;
+    }
+
+    .themeset{
+        font-size: 60px !important;
+    }
+
+    .footerbottom{
+        display: block;
+        padding: 140px 47px !important;
+    }
+
+    .fitnessimage{
+        width: 300px !important;
+        padding-bottom: 55px !important;
+    }
+
+    .footset1{
+        padding-bottom: 70px !important;
+        margin-bottom: 70px !important;
+    }
+
+    .setpara{
+        font-size: 55px !important;
+    }
+
+    .seth4{
+        font-size: 55px !important;
+    }
+
     .mediaflex{
-        display: inline!important;
+        display: block !important;
         position: relative!important;
     }
 
@@ -345,14 +661,27 @@
     }
 
     .workout{
-        width: 1266px!important;
+        width: 1233px!important;
         height: 1000px!important;
     }
 
+    .footimg{
+        width: 320px!important;
+        border-radius: 170px!important;
+    }
+
+    .spanset{
+        right: 5px!important;
+        top: 11px!important;
+        border-radius: 41px!important;
+        font-size: 50px!important;
+        padding: 2px 24px!important;
+    }
+
     .worktext{
-        top: 0;
+        top: 0!important;
         margin: 333px 0px 0px 160px!important;
-        padding: 20px;
+        padding: 20px!important;
         border: 1px solid #8d8d8d;
     }
 
@@ -363,7 +692,7 @@
 
     .rowtext{
         font-size: 65px!important;
-        margin-bottom: 40px;
+        margin-bottom: 40px!important;
     }
 
     .rowpara{
@@ -378,6 +707,455 @@
         width: 890px!important;
     }
 }
+
+/* @media screen and (max-width: 768px){
+    .topmedia{
+        width: 1700px!important;
+    }
+
+    .fitnessImg{
+        width: 1700px!important;
+        height: 2245px;
+    }
+
+    .boxfitnessImg{
+        width: 1700px!important;
+        height: 660px !important;
+    }
+
+    .fitness{
+        margin: 0px!important;
+    }
+
+    #clock{
+        font-size: 125px!important;
+    }
+
+    .signinbutton{    
+        float: none !important;
+        margin-top: 55px !important;
+    }
+
+    .sectionrows{
+        margin: 0px!important;
+        top: 650px!important;
+        position: unset !important;
+        padding-bottom: 70px!important;
+    }
+
+    .jevNavbar{
+        border: none !important;
+    }
+
+    .medialogo{
+        width: 355px!important;
+    }
+
+    .list{
+        display: block !important;
+        border-style: none none solid none !important;
+        border-width: 3px !important;
+        border-color: #efefef !important;
+    }
+
+    .rightSide{
+        padding: 190px 200px !important;
+    }
+
+    .signinbutton{
+        float: none !important;
+        margin-left: 0px !important;
+    }
+
+    .widthset{
+        width: 1700px!important;
+    }
+
+    .footerrow{
+        padding: 115px 90px !important;
+    }
+
+    .contactset{
+        font-size: 55px !important;
+        margin-bottom: 60px !important;
+    }
+
+    #mediaicon{
+        font-size: 60px !important;
+        margin-right: 69px!important;
+        padding-top: 10px!important;
+        color: #cccccc!important;
+    }
+
+    .onetext{
+        font-size: 88px !important;
+        margin: 60px 0px !important;
+    }
+
+    .aboutpara{
+        font-size: 58px !important;
+    }
+
+    .signuph3{
+        font-size: 94px!important;
+        margin: 40px 219px 0px 219px!important;
+        width: 788px !important;
+    }
+
+    .gift{
+        font-size: 94px !important;
+    }
+
+    .bottom{
+        padding: 55px 123px !important;
+        font-size: 45px!important;
+        background-color: transparent;
+        border: #8d8d8d;
+        border-width: 6px!important;
+        border-style: solid;
+        margin: 50px 0px!important;
+        border-radius: 102px!important;
+    }
+
+    .mediasetone{
+        display: flex !important;
+        width: 1700px!important;
+        padding: 40px!important;
+        border-bottom: 1px solid #8d8d8d !important;
+    }
+
+    .looking{
+        font-size: 35px !important;
+    }
+
+    .listh3{
+        font-size: 62px!important;
+        border-left: 8px solid #f36347!important;
+        margin-bottom: 40px!important;
+        padding: 2px 0!important;
+        padding-left: 60px!important;
+        width: 670px !important;
+        margin-top: 70px !important;
+    }
+
+    .mapright{
+        margin: 180px 135px !important;
+    }
+
+    .maptext{
+        font-size: 85px!important;
+        width: 950px!important;
+    }
+
+    .mapp{
+        font-size: 55px!important;
+        width: 750px!important;
+    }
+
+    #locationid{
+        font-size: 105px!important;
+        margin: 10px 25px 0px 15px!important;
+        color: #8d8d8d;
+    }
+
+    .locationh3 {
+        font-size: 65px!important;
+    }
+
+    .street{
+        font-size: 52px !important;
+        width: 595px!important;
+    }
+
+    .special{
+        font-size: 60px !important;
+    }
+
+    .location{
+        margin-left: 75px!important;
+    }
+
+    .listp{
+        font-size: 65px!important;
+        width: 750px!important;
+        margin-bottom: 50px !important;
+    }
+
+    .mapdata{
+        margin: 40px 50px 50px 50px!important;
+    }
+
+    .map{
+        height: 1550px !important;
+        width: 1700px !important;
+    }
+
+    .bottomimg{
+        width: 1700px !important;
+        height: 895px !important;
+    }
+
+    .signin{
+        padding: 55px 50px!important;
+        border-radius: 95px!important;
+        border-color: #efefef;
+        border-width: 8px!important;
+        background-color: white;
+        font-size: 45px!important;
+        width: 480px!important;
+    }
+
+    .abouttext{
+        top: 0 !important;
+        position: absolute;
+        right: 240px!important;
+        border: 1px solid #8d8d8d;
+        margin-top:  207px !important;
+    }
+
+    .aboutworkout{
+        width: 1700px!important;
+        height: 660px !important;
+    }
+
+    .about{
+        font-size: 65px !important;
+    }
+
+    .trainer{
+        font-size: 130px !important;
+    }
+
+    .functional{
+        margin-left: 0px !important;
+    }
+
+    .weight{
+        margin-left: 0px !important;
+    }
+
+    .center{
+        margin: 65px 129px !important;
+        width: 880px !important;
+    }
+
+    .client{
+        font-size: 90px !important;
+        color: #505050;
+    }
+
+    .quotes{
+        padding-right: 55px!important;
+        min-width:150px !important;
+    }
+
+    .clienttext {
+        font-size: 55px !important;
+        margin-left: 242px !important;
+        margin-bottom: 30px !important;
+    }
+
+    #quoteright{
+        font-size: 90px !important;
+        margin-top: 140px !important;
+        color: #eaeaea!important; 
+    }
+
+    .quotestext{
+        color: #8d8d8d !important;
+        font-size: 61px !important;
+        line-height: 1.7!important;
+        padding-left: 97px!important;
+        font-weight: 400!important;
+    }
+
+    .westboxing{
+        font-size: 45px!important;
+        margin-left: 238px!important;
+        margin-bottom: 30px!important;
+    }
+
+    .Boxing{
+        margin-left: 0px !important;
+    }
+
+    .right{
+        width: 0px !important;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%) !important;
+    }
+
+    .count{
+        font-size: 180px !important;
+    }
+
+    .countname{
+        font-size: 65px !important;
+        margin-bottom: 190px !important;
+    }
+
+    .mediadisplay{
+        display: block;
+    }
+
+    .left{
+        width: 1700px !important;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+        padding: 120px 70px;
+    }
+
+    .sally{
+        padding-left: 105px !important;
+    }
+
+    .sallybrey{
+        font-size: 108px !important;
+    }
+
+    .personal{
+        font-size: 83px !important;
+    }
+
+    .mediatext{
+        padding: 115px !important;
+        font-size: 57px !important;
+        line-height: 1.8;
+        width: 1190px!important;
+        margin-bottom: 50px !important;
+    }
+
+    .offertext{
+        font-size: 125px!important;
+        width: 815px!important;
+    }
+
+    .text{
+        font-size: 80px!important;
+    }
+
+    #fitnessid{
+        font-size: 65px !important;
+        color: #8d8d8d !important;
+        padding-right: 15px !important;
+    }
+
+    .range{
+        margin: 750px 0px!important;
+    }
+
+    .personaltraining{
+        font-size: 100px!important;
+    }
+
+    .para{
+        font-size: 20px!important;
+    }
+
+    .mottext{
+        font-size: 65px!important;
+        padding: 20px!important;
+    }
+
+    .bold{
+        font-size: 70px!important;
+    }
+
+    .setdata{
+        padding-left: 80px !important;
+    }
+
+    .mediabottom{
+        width: 400px;
+        margin-left: 327px;
+        margin-bottom: 55px;
+    }
+
+    .themeset{
+        font-size: 60px !important;
+    }
+
+    .footerbottom{
+        display: block;
+        padding: 140px 47px !important;
+    }
+
+    .fitnessimage{
+        width: 300px !important;
+        padding-bottom: 55px !important;
+    }
+
+    .footset1{
+        padding-bottom: 70px !important;
+        margin-bottom: 70px !important;
+    }
+
+    .setpara{
+        font-size: 55px !important;
+    }
+
+    .seth4{
+        font-size: 55px !important;
+    }
+
+    .mediaflex{
+        display: block !important;
+        position: relative!important;
+    }
+
+    .schedule{
+        font-size: 158px!important;
+    }
+
+    .work{
+        font-size: 60px!important;
+    }
+
+    .workout{
+        width: 1700px!important;
+        height: 1000px!important;
+    }
+
+    .footimg{
+        width: 320px!important;
+        border-radius: 170px!important;
+    }
+
+    .spanset{
+        right: 5px!important;
+        top: 11px!important;
+        border-radius: 41px!important;
+        font-size: 50px!important;
+        padding: 2px 24px!important;
+    }
+
+    .worktext{
+        top: 0!important;
+        margin: 333px 0px 0px 160px!important;
+        padding: 20px!important;
+        border: 1px solid #8d8d8d;
+    }
+
+    .rowset1{
+        padding: 300px 110px!important;
+        width: auto !important;
+    }
+
+    .rowtext{
+        font-size: 65px!important;
+        margin-bottom: 40px!important;
+    }
+
+    .rowpara{
+        font-size: 58px!important;
+    }
+
+    .mon{
+        font-size: 48px!important;
+    }
+
+    .signature{
+        width: 890px!important;
+    }
+} */
 
 .navSet1{
     padding: 0px 15px;
@@ -554,7 +1332,36 @@
     box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
 }
 
+/* #scroll-container{
+    overflow: hidden;
+}
+
+#scroll-text{
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-animation: my-animation 5s linear infinite;
+}
+
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+} */
+
 .abouttext{
+    top: 0;
     right: 240px;
     border: 1px solid #8d8d8d;
     padding: 20px;
@@ -564,6 +1371,16 @@
 .about{
     color: #ffffff;
     font-weight: 400; 
+}
+
+.fade-in-text{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .trainer{
@@ -658,7 +1475,7 @@
     color: #bebebe;
     font-weight: 400;
     padding: 30px 445px;
-    background-color: #353535;
+    background-color: #222;
 }
 
 .themeset{
@@ -766,10 +1583,31 @@
     color: rgb(255, 255, 255);
     padding-left: 90px;
     margin: 150px;
+    transform: translate(2%, 0%);
 }
 
 .pointer{
     cursor: pointer;
+}
+
+.topbutton{
+    animation-name: moveInleft;
+    animation-duration: 3s;
+}
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .para{
@@ -777,6 +1615,8 @@
     font-size: 14px;
     padding-left: 14px;
     width: 595px;
+    animation-name: moveInleft;
+    animation-duration: 3s;
 }
 
 .looking{
@@ -784,11 +1624,15 @@
     font-size: 23px;
     padding-left: 10px;
     border-left: 2px solid #f36347;
+    animation-name: moveInleft;
+    animation-duration: 3s;
 }
 
 .personaltraining{
     font-size: 54px;
     padding-left: 12px;
+    animation-name: moveInleft;
+    animation-duration: 3s;
 }
 
 .top{
