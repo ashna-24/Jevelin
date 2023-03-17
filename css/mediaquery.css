@@ -1,0 +1,966 @@
+@media screen and (max-width: 320px){
+    .topmedia{
+        width: 1233px;
+    }
+
+    .fitnessImg{
+        width: 1233px;
+        height: 2245px;
+    }
+
+    .cart{
+        padding-left: 855px !important;
+    }
+
+    #cartid{
+        font-size: 47px !important;
+        color: rgb(231,231,231);
+        padding-right: 29px;
+    }
+
+    .topspan{
+        bottom: 27px !important;
+        right: 21px;
+        font-size: 20px !important;
+        background-color: #f36347;
+        color: rgb(231,231,231);
+        padding: 5px 14px !important;
+        border-radius: 18px !important;
+    }
+
+    .boxfitnessImg{
+        width: 1233px;
+        height: 660px ;
+    }
+
+    .fitness{
+        margin: 0px;
+    }
+
+    #clock{
+        font-size: 125px;
+    }
+
+    .signinbutton{    
+        float: none ;
+        margin-top: 55px ;
+    }
+
+    .sectionrows{
+        margin: 0px;
+        top: 650px;
+        position: unset ;
+        padding-bottom: 70px;
+    }
+
+    .jevNavbar{
+        border: none ;
+    }
+
+    .medialogo{
+        width: 355px;
+    }
+
+    .list{
+        display: block ;
+        border-style: none none solid none ;
+        border-width: 3px ;
+        border-color: #efefef ;
+    }
+
+    .rightSide{
+        padding: 190px 200px ;
+    }
+
+    .signinbutton{
+        float: none ;
+        margin-left: 0px ;
+    }
+
+    .widthset{
+        width: 1233px;
+    }
+
+    .footerrow{
+        padding: 115px 90px ;
+    }
+
+    .contactset{
+        font-size: 55px ;
+        margin-bottom: 60px ;
+    }
+
+    #mediaset{
+        font-size: 65px !important;
+    }
+
+    #mediaicon{
+        font-size: 60px ;
+        margin-right: 69px;
+        padding-top: 10px;
+        color: #cccccc;
+    }
+
+    .onetext{
+        font-size: 88px ;
+        margin: 60px 0px ;
+    }
+
+    .aboutpara{
+        font-size: 58px ;
+    }
+
+    .signuph3{
+        font-size: 94px;
+        margin: 40px 219px 0px 219px;
+        width: 788px ;
+    }
+
+    .gift{
+        font-size: 94px ;
+    }
+
+    .bottom{
+        padding: 55px 123px ;
+        font-size: 45px;
+        background-color: transparent;
+        border: #8d8d8d;
+        border-width: 6px;
+        border-style: solid;
+        margin: 50px 0px;
+        border-radius: 102px;
+    }
+
+    .mediasetone{
+        display: flex ;
+        width: 1233px;
+        padding: 40px;
+        border-bottom: 1px solid #8d8d8d ;
+    }
+
+    .looking{
+        font-size: 35px ;
+    }
+
+    .listh3{
+        font-size: 62px;
+        border-left: 8px solid #f36347;
+        margin-bottom: 40px;
+        padding: 2px 0;
+        padding-left: 60px;
+        width: 670px ;
+        margin-top: 70px ;
+    }
+
+    .mapright{
+        margin: 180px 135px ;
+    }
+
+    .maptext{
+        font-size: 85px;
+        width: 950px;
+    }
+
+    .mapp{
+        font-size: 55px;
+        width: 750px;
+    }
+
+    #locationid{
+        font-size: 105px;
+        margin: 10px 25px 0px 15px;
+        color: #8d8d8d;
+    }
+
+    .locationh3 {
+        font-size: 65px;
+    }
+
+    .street{
+        font-size: 52px ;
+        width: 595px;
+    }
+
+    .special{
+        font-size: 60px ;
+    }
+
+    .location{
+        margin-left: 75px;
+    }
+
+    .listp{
+        font-size: 65px;
+        width: 750px;
+        margin-bottom: 50px ;
+    }
+
+    .mapdata{
+        margin: 40px 50px 50px 50px;
+    }
+
+    .map{
+        height: 1550px ;
+        width: 1233px ;
+    }
+
+    .bottomimg{
+        width: 1233px ;
+        height: 895px ;
+    }
+
+    .signin{
+        padding: 55px 50px;
+        border-radius: 95px;
+        border-color: #efefef;
+        border-width: 8px;
+        background-color: white;
+        font-size: 45px;
+        width: 480px;
+    }
+
+    .abouttext{
+        top: 0 ;
+        position: absolute;
+        right: 240px;
+        border: 1px solid #8d8d8d;
+        margin-top:  207px ;
+    }
+
+    .aboutworkout{
+        width: 1233px;
+        height: 660px ;
+    }
+
+    .about{
+        font-size: 65px ;
+    }
+
+    .trainer{
+        font-size: 130px ;
+    }
+
+    .functional{
+        margin-left: 0px ;
+    }
+
+    .weight{
+        margin-left: 0px ;
+    }
+
+    .center{
+        margin: 65px 129px ;
+        width: 880px ;
+    }
+
+    .client{
+        font-size: 90px ;
+        color: #505050;
+    }
+
+    .quotes{
+        padding-right: 55px;
+        min-width:150px ;
+    }
+
+    .clienttext {
+        font-size: 55px ;
+        margin-left: 242px ;
+        margin-bottom: 30px ;
+    }
+
+    #quoteright{
+        font-size: 90px ;
+        margin-top: 140px ;
+        color: #eaeaea; 
+    }
+
+    .quotestext{
+        color: #8d8d8d ;
+        font-size: 61px ;
+        line-height: 1.7;
+        padding-left: 97px;
+        font-weight: 400;
+    }
+
+    .westboxing{
+        font-size: 45px;
+        margin-left: 238px;
+        margin-bottom: 30px;
+    }
+
+    .Boxing{
+        margin-left: 0px ;
+    }
+
+    .right{
+        width: 0px ;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%) ;
+    }
+
+    .count{
+        font-size: 180px ;
+    }
+
+    .countname{
+        font-size: 65px ;
+        margin-bottom: 190px ;
+    }
+
+    .mediadisplay{
+        display: block;
+    }
+
+    .left{
+        width: 1233px ;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+        padding: 120px 70px;
+    }
+
+    .sally{
+        padding-left: 105px ;
+    }
+
+    .sallybrey{
+        font-size: 108px ;
+    }
+
+    .personal{
+        font-size: 83px ;
+    }
+
+    .mediatext{
+        padding: 115px ;
+        font-size: 57px ;
+        line-height: 1.8;
+        width: 1190px;
+        margin-bottom: 50px ;
+    }
+
+    .offertext{
+        font-size: 125px;
+        width: 815px;
+    }
+
+    .text{
+        font-size: 80px;
+    }
+
+    #fitnessid{
+        font-size: 65px ;
+        color: #8d8d8d ;
+        padding-right: 15px ;
+    }
+
+    .line{
+        border-radius: 35px;
+        border-top-width: 8px;
+        max-width: 63px;
+        margin: 0px 0px 20px 707px;
+    }
+
+    .range{
+        margin: 750px 0px;
+    }
+
+    .personaltraining{
+        font-size: 100px;
+    }
+
+    .para{
+        font-size: 20px;
+    }
+
+    .motivation{
+        padding: 130px 95px;
+    }
+
+    .mottext{
+        font-size: 38px;
+        padding: 69px 0px;
+    }
+
+    .bold{
+        font-size: 70px;
+    }
+
+    .setdata{
+        padding-left: 80px ;
+    }
+
+    .mediabottom{
+        width: 400px;
+        margin-left: 327px;
+        margin-bottom: 55px;
+    }
+
+    .themeset{
+        font-size: 60px ;
+    }
+
+    .footerbottom{
+        display: block;
+        padding: 140px 47px ;
+    }
+
+    .fitnessimage{
+        width: 300px ;
+        padding-bottom: 55px ;
+    }
+
+    .footset1{
+        padding-bottom: 70px ;
+        margin-bottom: 70px ;
+    }
+
+    .setpara{
+        font-size: 55px ;
+    }
+
+    .seth4{
+        font-size: 55px ;
+    }
+
+    .mediaflex{
+        display: block ;
+        position: relative;
+    }
+
+    .schedule{
+        font-size: 158px;
+    }
+
+    .work{
+        font-size: 60px;
+    }
+
+    .workout{
+        width: 1233px;
+        height: 1000px;
+    }
+
+    .footimg{
+        width: 320px;
+        border-radius: 170px;
+    }
+
+    .spanset{
+        right: 5px;
+        top: 11px;
+        border-radius: 41px;
+        font-size: 50px;
+        padding: 2px 24px;
+    }
+
+    .worktext{
+        top: 0;
+        margin: 333px 0px 0px 160px;
+        padding: 20px;
+        border: 1px solid #8d8d8d;
+    }
+
+    .rowset1{
+        padding: 300px 110px;
+        width: auto ;
+    }
+
+    .rowtext{
+        font-size: 65px;
+        margin-bottom: 40px;
+    }
+
+    .rowpara{
+        font-size: 58px;
+    }
+
+    .mon{
+        font-size: 48px;
+    }
+
+    .signature{
+        width: 890px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .topmedia{
+        width: 1700px;
+    }
+
+    .fitnessImg{
+        width: 1700px;
+        height: 1600px;
+    }
+
+    .boxfitnessImg{
+        width: 1700px;
+        height: 660px ;
+    }
+
+    .fitness{
+        margin: 0px;
+    }
+
+    #clock{
+        font-size: 125px;
+    }
+
+    .signinbutton{    
+        float: none ;
+        margin-top: 55px ;
+    }
+
+    .sectionrows{
+        margin: 0px;
+        top: 650px;
+        position: unset ;
+        padding-bottom: 70px;
+    }
+
+    .jevNavbar{
+        border: none ;
+    }
+
+    .medialogo{
+        width: 255px;
+    }
+
+    .list{
+        display: block ;
+        border-style: none none solid none ;
+        border-width: 3px ;
+        border-color: #efefef ;
+    }
+
+    .rightSide{
+        padding: 190px 200px ;
+    }
+
+    .signinbutton{
+        float: none ;
+        margin-left: 0px ;
+    }
+
+    .widthset{
+        width: 1703px;
+    }
+
+    .footerrow{
+        padding: 115px 90px ;
+    }
+
+    .contactset{
+        font-size: 55px ;
+        margin-bottom: 60px ;
+    }
+
+    #mediaicon{
+        font-size: 60px ;
+        margin-right: 69px;
+        padding-top: 10px;
+        color: #cccccc;
+    }
+
+    .cart{
+        padding-left:855px !important;
+    }
+
+    #cartid{
+        font-size: 40px !important;
+        color: rgb(231,231,231);
+        padding-right: 29px;
+    }
+
+    .topspan{
+        bottom: 27px !important;
+        right: 21px;
+        font-size: 20px !important;
+        background-color: #f36347;
+        color: rgb(231,231,231);
+        padding: 5px 14px !important;
+        border-radius: 18px !important;
+    }
+
+    .onetext{
+        font-size: 88px ;
+        margin: 60px 0px ;
+    }
+
+    .aboutpara{
+        font-size: 58px ;
+    }
+
+    .signuph3{
+        font-size: 94px;
+        margin: 40px 219px 0px 219px;
+        width: 788px ;
+    }
+
+    .gift{
+        font-size: 94px ;
+    }
+
+    .bottom{
+        padding: 55px 123px ;
+        font-size: 45px;
+        background-color: transparent;
+        border: #8d8d8d;
+        border-width: 6px;
+        border-style: solid;
+        margin: 50px 0px;
+        border-radius: 102px;
+    }
+
+    .mediasetone{
+        display: flex ;
+        width: 1700px;
+        padding: 20px 160px;
+        border-bottom: 1px solid #8d8d8d ;
+    }
+
+    .listh3{
+        font-size: 62px;
+        border-left: 8px solid #f36347;
+        margin-bottom: 40px;
+        padding: 2px 0;
+        padding-left: 60px;
+        width: 670px ;
+        margin-top: 70px ;
+    }
+
+    .mapright{
+        margin: 180px 135px ;
+    }
+
+    .maptext{
+        font-size: 85px;
+        width: 950px;
+    }
+
+    .mapp{
+        font-size: 55px;
+        width: 750px;
+    }
+
+    #locationid{
+        font-size: 105px;
+        margin: 10px 25px 0px 15px;
+        color: #8d8d8d;
+    }
+
+    .locationh3 {
+        font-size: 65px;
+    }
+
+    .street{
+        font-size: 52px ;
+        width: 595px;
+    }
+
+    .special{
+        font-size: 60px ;
+    }
+
+    .location{
+        margin-left: 75px;
+    }
+
+    .listp{
+        font-size: 65px;
+        width: 750px;
+        margin-bottom: 50px ;
+    }
+
+    .mapdata{
+        margin: 40px 50px 50px 50px;
+    }
+
+    .map{
+        height: 1550px ;
+        width: 1700px ;
+    }
+
+    .bottomimg{
+        width: 1700px ;
+        height: 895px ;
+    }
+
+    .signin{
+        padding: 55px 50px;
+        border-radius: 95px;
+        border-color: #efefef;
+        border-width: 8px;
+        background-color: white;
+        font-size: 45px;
+        width: 480px;
+    }
+
+    .abouttext{
+        top: 0 ;
+        position: absolute;
+        right: 240px;
+        border: 1px solid #8d8d8d;
+        margin-top:  207px ;
+    }
+
+    .aboutworkout{
+        width: 1700px;
+        height: 660px ;
+    }
+
+    .about{
+        font-size: 65px ;
+    }
+
+    .trainer{
+        font-size: 130px ;
+    }
+
+    .functional{
+        margin-left: 0px ;
+    }
+
+    .weight{
+        margin-left: 0px ;
+    }
+
+    .center{
+        margin: 65px 129px ;
+        width: 880px ;
+    }
+
+    .client{
+        font-size: 90px ;
+        color: #505050;
+    }
+
+    .quotes{
+        padding-right: 55px;
+        min-width:150px ;
+    }
+
+    .clienttext {
+        font-size: 55px ;
+        margin-left: 242px ;
+        margin-bottom: 30px ;
+    }
+
+    #quoteright{
+        font-size: 90px ;
+        margin-top: 140px ;
+        color: #eaeaea; 
+    }
+
+    .quotestext{
+        color: #8d8d8d ;
+        font-size: 61px ;
+        line-height: 1.7;
+        padding-left: 97px;
+        font-weight: 400;
+    }
+
+    .westboxing{
+        font-size: 45px;
+        margin-left: 238px;
+        margin-bottom: 30px;
+    }
+
+    .Boxing{
+        margin-left: 0px ;
+    }
+
+    .right{
+        width: 0px ;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%) ;
+    }
+
+    .count{
+        font-size: 180px ;
+    }
+
+    .countname{
+        font-size: 65px ;
+        margin-bottom: 190px ;
+    }
+
+    .mediadisplay{
+        display: block;
+    }
+
+    .left{
+        width: 1700px ;
+        box-shadow: 0 15px 25px -7px rgb(0 0 0 / 9%), 0 -12px 10px -10px rgb(0 0 0 / 4%);
+        padding: 120px 70px;
+    }
+
+    .sally{
+        padding-left: 105px ;
+    }
+
+    .sallybrey{
+        font-size: 108px ;
+    }
+
+    .personal{
+        font-size: 83px ;
+    }
+
+    .mediatext{
+        padding: 115px ;
+        font-size: 57px ;
+        line-height: 1.8;
+        width: 1190px;
+        margin-bottom: 50px ;
+    }
+
+    .offertext{
+        font-size: 125px;
+        width: 815px;
+    }
+
+    .text{
+        font-size: 80px;
+    }
+
+    #fitnessid{
+        font-size: 65px ;
+        color: #8d8d8d ;
+        padding-right: 15px ;
+    }
+
+    .range{
+        margin: 500px 0px !important;
+    }
+
+    .freetrial{
+        padding: 30px 50px;
+        border-radius: 55px;
+        font-size: 33px;
+    }
+
+    .looking{
+        font-size: 45px;
+    }
+
+    .personaltraining{
+        font-size: 120px;
+    }
+
+    .para{
+        font-size: 25px;
+        width: 1060px;
+    }
+
+    .free{
+        padding: 30px 50px;
+        left: 315px;
+        border-radius: 55px;
+        font-size: 33px;
+    }
+
+    .mottext{
+        font-size: 65px;
+        padding: 20px;
+    }
+
+    .bold{
+        font-size:56px;
+    }
+
+    .setdata{
+        padding-left: 80px ;
+    }
+
+    .mediabottom{
+        width: 400px;
+        margin-left: 327px;
+        margin-bottom: 55px;
+    }
+
+    .themeset{
+        font-size: 60px ;
+    }
+
+    .footerbottom{
+        display: block;
+        padding: 140px 47px ;
+    }
+
+    .fitnessimage{
+        width: 300px ;
+        padding-bottom: 55px ;
+    }
+
+    .footset1{
+        padding-bottom: 70px ;
+        margin-bottom: 70px ;
+    }
+
+    .setpara{
+        font-size: 55px ;
+    }
+
+    .seth4{
+        font-size: 55px ;
+    }
+
+    .mediaflex{
+        display: block ;
+        position: relative;
+    }
+
+    .schedule{
+        font-size: 158px;
+    }
+
+    .work{
+        font-size: 60px;
+    }
+
+    .workout{
+        width: 1700px;
+        height: 1000px;
+    }
+
+    .footimg{
+        width: 320px;
+        border-radius: 170px;
+    }
+
+    .spanset{
+        right: 5px;
+        top: 11px;
+        border-radius: 41px;
+        font-size: 50px;
+        padding: 2px 24px;
+    }
+
+    .worktext{
+        top: 0;
+        margin: 333px 0px 0px 160px;
+        padding: 20px;
+        border: 1px solid #8d8d8d;
+    }
+
+    .rowset1{
+        padding: 300px 110px;
+        width: auto ;
+    }
+
+    .rowtext{
+        font-size: 65px;
+        margin-bottom: 40px;
+    }
+
+    .rowpara{
+        font-size: 58px;
+    }
+
+    .mon{
+        font-size: 48px;
+    }
+
+    .signature{
+        width: 650px;
+    }
+} 

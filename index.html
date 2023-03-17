@@ -9,12 +9,13 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <script src="assets/font.js"></script>
-        <script src="assets/jquery.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mediaquery.css">
         <script src="js/jevelin.js"></script>
         <script src="js/navbar.js"></script>
+        <script src="assets/font.js"></script>
+        <script src="assets/jquery.js"></script>
         <script src="assets/bootstrap.js"></script>     
     </head>
     <body>
@@ -84,7 +85,7 @@
                         <div class="imgDiv align flex">
                             <img src="assets/Je_Logo.png" alt="Not Found" class="logoImg medialogo">
                         </div>
-                        <div class="jevNavbar sticky-top" id="navbar">
+                        <div class="jevNavbar" id="navbar">
                             <div class="flex topnav align">
                                 <a class="navSet1 pointer">
                                     <b class="navText">Home</b>
@@ -111,8 +112,8 @@
                                     <b class="navText">Elements</b>
                                     <i class='fas fa-chevron-down' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
                                 </a>
-                                <div class="navSet1 relative pointer">
-                                    <i class='fas fa-shopping-cart' style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
+                                <div class="navSet1 cart relative pointer">
+                                    <i class='fas fa-shopping-cart' id="cartid" style='font-size:15px; color:rgb(231,231,231); padding-left: 5px'></i>
                                     <span class="absolute topspan">
                                         0
                                     </span>
@@ -124,13 +125,13 @@
                                     <i class='fab fa-instagram' style='font-size:18px; color:rgb(231,231,231); margin-left: 15px'></i>    
                                 </a>
                                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                    <i class="fa fa-bars" style='font-size:75px; color:rgb(231,231,231); padding-left: 620px'></i>
+                                    <i class="fa fa-bars" id="mediaset" style='font-size:75px; color:rgb(231,231,231);'></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="range">
-                        <h3 class="looking medialogo">LOOKING FOR</h3>
+                        <h3 class="looking">LOOKING FOR</h3>
                         <h3 class="personaltraining fweight700">PERSONAL<span class="top">TRAINER?</span></h3>
                         <p class="para">Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
                         <div class="flex relative topbutton">
@@ -141,7 +142,7 @@
                 </div>
             </div>
             <div class="widthset">
-                <div class="container reveal fade-bottom">
+                <div class="container-fluid-xxl reveal fade-bottom">
                     <div class="motivation">
                         <h1 class="text-center bold fsize30 fweight700">THE MOTIVATION</h1>
                         <div class="line"></div>
