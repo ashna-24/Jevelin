@@ -8,6 +8,10 @@
         height: 2245px;
     }
 
+    .sidenavbar{
+        display: none;
+    }
+
     .cart{
         padding-left: 600px !important;
     }
