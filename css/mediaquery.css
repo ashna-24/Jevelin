@@ -388,6 +388,12 @@
         padding: 69px 0px;
     }
 
+    .tokenprice {
+        color: #bebebe;
+        font-size: 60px;
+        margin: 40px 0px;
+    }
+
     .bold{
         font-size: 70px;
     }
